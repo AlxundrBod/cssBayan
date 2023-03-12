@@ -117,3 +117,21 @@ input:checked~.label {
         cursor: none;
     }
 }
+
+@media (max-width: 320px) {
+    * {
+        font-size: 0.5em;
+    }
+
+    .wrapper {
+        max-width: 40rem;
+    }
+
+    .label {
+        cursor: none;
+    }
+
+    .memeContent {
+        cursor: none;
+    }
+}
