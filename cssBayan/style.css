@@ -125,6 +125,10 @@ input:checked~.label {
     .memeContent {
         cursor: none;
     }
+
+    .label svg {
+        display: block;
+    }
 }
 
 @media (max-width: 320px) {
@@ -142,5 +146,9 @@ input:checked~.label {
 
     .memeContent {
         cursor: none;
+    }
+
+    .label svg {
+        display: block;
     }
 }
