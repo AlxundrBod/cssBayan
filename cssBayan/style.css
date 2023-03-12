@@ -84,6 +84,10 @@ input:checked+label .svgClass {
     rotate: 180deg;
 }
 
+.Bayan:hover input:checked+label .svgClass {
+    transform: none;
+}
+
 label:hover+.memeContent {
     max-height: 65rem;
 }
